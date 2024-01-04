@@ -1,9 +1,10 @@
 name: workflow_testing
 
 on: 
-  branches:
-    - '!main'
-    - '*'
+  push:
+    branches:
+      - '!main'
+      - '*'
 
 jobs:
   tasks:
