@@ -15,7 +15,7 @@ jobs:
     steps:
     
     - name: Download repository
-      uses: actions/checout@v4
+      uses: actions/checkout@v4
 
     - name: Testing
       uses: advanced-security/python-lint-code-scanning-action@v1
