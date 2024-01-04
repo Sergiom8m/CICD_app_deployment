@@ -1,4 +1,4 @@
-name: testing
+name: workflow_testing
 
 on: 
   branches:
